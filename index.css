@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 20px 0 20px;
+  text-align: center;
+  color: #f50909;
+}
+
+.image-card {
+object-fit: cover;
+}
+
+.heart-like-dislike {
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20%;
+  border: 2px solid rgba(224, 37, 37, 0.5);
+}
+
+.bg-red {
+  background-color: #f30b0b;
+}
